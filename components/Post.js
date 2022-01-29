@@ -24,7 +24,7 @@ function Post({ post, modalPost }) {
   const { data: session } = useSession();
 
   const deletePost = async () => {
-    const response = await fetch(`http://localhost:3000/api/posts/${post._id}`, {
+    const response = await fetch(`https://linkedin-clone-flame.vercel.app/api/posts/${post._id}`, {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
     });

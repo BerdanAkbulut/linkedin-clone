@@ -23,7 +23,7 @@ function Widgets({ articles }) {
           />
         </div>
       ))}
-      <div className="bg-white mt-5 dark:bg-transparent  w-11/12 h-64 px-2.5  rounded-lg sticky top-10 border border-gray-300 dark:border-none">
+      <div className= " sm:hidden bg-white mt-5 dark:bg-transparent  w-11/12 h-64 px-2.5  rounded-lg sticky top-10 border border-gray-300 dark:border-none">
         <div className="relative w-full h-full ">
           <Image
             src="https://rb.gy/kbfeaa"

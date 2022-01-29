@@ -71,7 +71,7 @@ export async function getServerSideProps(context) {
   }
 
   // GET POSTS ON SERVER SİDE
-  const response = await fetch("http://localhost:3000/api/posts", {
+  const response = await fetch("https://linkedin-clone-flame.vercel.app/api/posts", {
     method: "GET",
     headers: { "Content-Type": "application/json" },
   });
